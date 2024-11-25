@@ -1,0 +1,36 @@
+# File system and IDE files
+.idea/ (PyCharm)
+.vscode/ (VS Code)
+Thumbs.db (Windows)
+.DS_Store (macOS)
+
+# Compiled python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg/
+
+# Test file and coverage directories
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Log and database files
+*.log
+*.sqlite3
+
+# Local configuration
+.env
+local_settings.py
