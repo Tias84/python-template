@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="your_project_name",
+    name={{ cookiecutter.project_slug }},
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -14,12 +14,12 @@ setup(
             # 'your_command=your_module:main_function',
         ],
     },
-    author="Your Name",
-    author_email="your_email@example.com",
+    author={{ cookiecutter.author_name }},
+    author_email={{ cookiecutter.author_email }},
     description="A short description of your project",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/your_project_name",
+    # url="https://github.com/yourusername/your_project_name",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
